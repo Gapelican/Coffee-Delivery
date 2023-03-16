@@ -20,6 +20,8 @@ export function CoffeeCard({id, imgCoffee, coffeType, title, subTitle, coffeValu
  
   const [quantity, setQuantity] = useState(0);
 
+  
+
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
     setQuantity(Number(event.target.value));
   }
