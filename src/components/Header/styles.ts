@@ -34,6 +34,26 @@ export const HeaderContainer = styled.header`
       display: flex;
       align-items: center;
       justify-content: center;
+      position:relative;
+
+      span {
+        position: absolute;
+        top:calc(-1.25rem / 2);
+        right:calc(-1.25rem / 2);
+        background: ${(props) => props.theme['yellow-200']};
+        color: ${(props) => props.theme['white']};
+
+        width: 1.25rem;
+        height:1.25rem;
+        border-radius: 50%;
+
+        font-size:.75rem;
+        font-weight:700;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
   }
   
