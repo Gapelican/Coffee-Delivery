@@ -24,4 +24,11 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
     }
+
+    .container-master {
+        max-width:1120px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 `
